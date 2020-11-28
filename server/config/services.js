@@ -47,18 +47,18 @@ module.exports = {
     bundle: 'bundle.js',
   },
   service2: {
-    api: '/',
-    url: 'http://localhost:3002',
+    api: ['/tours/requests', '/tours/agents'],
+    url: 'http://34.229.154.23:3001/',
     bundle: 'bundle.js',
   },
   service3: {
-    api: '/',
-    url: 'http://localhost:3003',
+    api: ['/similar-homes', '/similar-homes/favorites', 'new-listings', 'new-listing/favorites'],
+    url: 'http://52.15.94.24:3001/',
     bundle: 'bundle.js',
   },
   service4: {
-    api: '/',
-    url: 'http://localhost:3004',
+    api: '/home-description',
+    url: 'http://34.229.154.23:3004/',
     bundle: 'bundle.js',
   },
 };

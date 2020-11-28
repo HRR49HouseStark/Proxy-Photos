@@ -1,0 +1,12 @@
+#galleryContainer {
+  width: 1000px;
+  height: 400px;
+  margin: 0 auto;
+  border-radius: 10px;
+  position: relative;
+}
+
+#tourService {
+  position: absolute;
+  right: 7px;
+}
