@@ -1,7 +1,8 @@
 # FEC Proxy Server Template
+Project deployment URL: http://54.177.124.31:3000/
 
 ## Overview
-This is an template proxy server that you can use to quickly display all four individual services on one page, and ensure that your client applications will be able to communicate with their corresponding API. It consists of some middleware that serve up static asset requests, proxy requests for your individual client application bundles, and proxy requests from running client applications to their respective service.
+This proxy server displays all four project members' services on a single page and permits communication with their corresponding API's. It uses middleware to serve up static asset requests, proxy requests for individual client app bundles, and proxy requests from running client apps to their respective services.
 
 ## Instructions
 - Run `nvm use 14` to switch the version of node required for this project. If this version isn't currently installed, run `nvm install` to install this version
